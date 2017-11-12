@@ -1,5 +1,6 @@
 // Vendor
-// @import
+@import
+    "vendor/reset";
 // 	"~balloon-css/balloon.min",
 // 	"~bootstrap-sass/assets/stylesheets/bootstrap/variables",
 // 	"~bootstrap-sass/assets/stylesheets/bootstrap/mixins/clearfix",
@@ -14,14 +15,13 @@
 // @import
 // 	"utility/colour-variables",
 // 	"utility/colours",
-// 	"utility/mixins",
-// 	"utility/reset";
+// 	"utility/mixins";
 
 // Base
-// @import
-// 	"base/global/global",
+@import
+	"base/global",
 // 	"base/global/global-responsive",
-// 	"base/typography";
+	"base/typography";
 
 // Layout
 // @import
